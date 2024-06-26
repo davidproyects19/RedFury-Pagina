@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lo último</title>
+    <link href="dist/css/lightbox.css" rel="stylesheet">
+    <link rel="stylesheet" href="estilos.css">
+    <script defer src="https://kit.fontawesome.com/c8e4d183c2.js" crossorigin="anonymous"></script>   
+</head>
+<body>
+    <div class="contenedor">
+        <header>
+            <div class="encabezado">
+                <div class="logo">
+                    <a href="Lo último.html" class="logoTexto">RED FURY</a>
+                </div>
+                <nav class="menu">
+                    <ul>
+                        <li><a href="Lo último.html">Lo último</a></li>
+                        <li>
+                            <a href="../Accesorios_DEW/accesorios.html">Accesorios</a>
+                        </li>
+                        <li >
+                            <a href="../Ropas Deportivas/ropaDeportiva.html">Ropas deportivas</a>
+                        </li>
+                        <li >
+                            <a href="../Zapatilla DEW/zapatilla.html">Zapatillas</a   >
+
+                        </li>
+                        <li><a href="../OFERTAS/ofertas.html">Ofertas</a></li>
+                    </ul>
+                </nav>
+
+                <div class="right-menu">
+                    <!--search-->
+                    <a href="javascript:void(0);" class="search">
+                        <i class="fas fa-search"></i>
+                    </a>
+                    <!--user-->
+                    <a href="javascript:void(0);" class="user">
+                        <i class="far fa-user"></i>
+                    </a>
+                    <!--cart icon-->
+                    <a href="#">
+                        <i class="fas fa-shopping-cart">
+                          <!--number if product in cart-->
+                          <span class="num-cart-product">0</span>
+                        </i>
+                    </a>
+                </div>       
+            </header><!--*****Final De header******-->       
+            <!--search bar-->
+            <div class="search-bar">       
+                <!--search input-->
+                <div class="search-input">        
+                    <input type="text" placeholder="Buscar el producto">
+                    <!--Cancel btn-->
+                    <a href="javascript:void(0);" class="search-cancel">
+                        <i class="fas fa-times"></i>
+                    </a>
+                </div>       
+            </div>      
+            <!--login and sign up from-->
+            <div class="form">
+        
+                <!--login-->
+                <div class="login-form">
+        
+                    <!--cancel btn-->
+                    <a href="javascript:void(0);" class="form-cancel">
+                        <i class="fas fa-times"></i>    
+                    </a>
+        
+                    <!--heading-->
+                    <strong>Iniciar Sec</strong>
+        
+                    <!--inputs-->
+                    <form>
+                        <input type="email" placeholder="Ejemplo@gmail.com" name="email" required>
+                        <input type="password" placeholder="Contraseña" name="password" required>
+                        <!--submit btn-->
+                        <input type="submit" value="Entrar">
+                    </form>
+        
+                    <!--forget and sign up btn-->
+                    <div class="form-btns">
+                       <a href="#" class="forget">¿Te olvidaste tu contraseña?</a>
+                       <a href="javascript:void(0);" class="sign-up-btn">Crear cuenta</a>
+                    </div>
+        
+                </div>
+        
+                <!--Sign up-->
+                <div class="sign-up-form">
+        
+                    <!--cancel btn-->
+                    <a href="javascript:void(0);" class="form-cancel">
+                        <i class="fas fa-times"></i>
+                    </a>
+        
+                    <!--heading-->
+                    <strong>Crear cuenta</strong>
+        
+                    <!--inputs-->
+                    <form>
+                        <input type="text" placeholder="Nombre completo" name="fullname" required>
+                        <input type="email" placeholder="Ejemplo@gmail.com" name="email" required>
+                        <input type="password" placeholder="Contraseña" name="password" required>
+                        <!--submit btn-->
+                        <input type="submit" value="Crear">
+                    </form>
+        
+                    <!--forget and sign up btn-->
+                    <div class="form-btns">
+                       <a href="javascript:void(0);" class="already-account">¿Ya tienes una cuenta?</a>
+                    </div>
+        
+                </div>
+        
+            </div>
+        <!--final navegador-->
+        <section id="container-slider">
+            <section id="container-slider">
+                <a href="javascript: fntExecuteSlide('prev');" class="arrowPrev"><i
+                        class="fas fa-chevron-circle-left"></i></a>
+                <a href="javascript: fntExecuteSlide('next');" class="arrowNext"> <i
+                        class="fas fa-chevron-circle-right"></i></a>
+                <ul class="listslider">
+                    <li><a itlist="itList_0" href="#" class="item-select-slid"></a></li>
+                    <li><a itlist="itList_1" href="#"></a></li>
+                    <li><a itlist="itList_2" href="#"></a></li>
+                </ul>
+                <ul class="listslider">
+                    <li><a itlist="itList_0" href="#" class="item-select-slid"></a></li>
+                    <li><a itlist="itList_1" href="#"></a></li>
+                    <li><a itlist="itList_2" href="#"></a></li>
+                </ul>
+                <ul id="slider">
+                    <li style="background-image: url('imgLoúltimo/slider1.jpg'); z-index:0; opacity: 1;">
+                        <div class="content_slider">
+                            <div>
+                                <h2>Ofertas solo "Hoy"</h2>
+                                <p>Red fury te trae las mejores ofertas de hoy...</p>
+                                <a href="../OFERTAS/ofertas.html" class="btnSlider">Ver más</a>
+                            </div>
+                        </div>
+                    </li>
+
+                    <li style="background-image: url('imgLoúltimo/sliderRopadeportiva.jpg');">
+                        <div class="content_slider">
+                            <div>
+                                <h2>Ropas deportivas</h2>
+                                <p>Encuentra acá las mejores ropas deportivas para salir a correr, hacer ejercicio, etc.
+                                </p>
+                                <a href="../Ropas Deportivas/ropaDeportiva.html" class="btnSlider">Ver más</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li style="background-image: url('imgLoúltimo/slider3.jpg');">
+                        <div class="content_slider">
+                            <div>
+                                <h2>Zapatillas</h2>
+                                <p>Encuentra las mejores zapatillas para disfrutar de tu verano.</p>
+                                <a href="../Zapatilla DEW/zapatilla.html" class="btnSlider">Ver más</a>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </section>
+            <div class="subTitulo">
+                <h2>LO MÁS VENDIDO</h2>
+                <hr>
+            </div>
+            <div class="padre">
+                <div class="hijo">
+                    <a href="#"><img src="imgLoúltimo/polo rojo.jpg" width="100%"></a>
+                    <h3>RED FURY BARCELONA 2021/22 HOME</h2>
+                        <p>ROPA Fútbol hombre</p>
+                        <p>S/179</p>
+                </div>
+                <div class="hijo">
+                    <a href="#"> <img src="imgLoúltimo/polera roja.jpg" width="100%"></a>
+                    <h3>JORDAN FURY 2021/22 Vintage</h2>
+                        <p>ROPA Hombre</p>
+                        <p>S/300</p>
+                </div>
+                <div class="hijo">
+                    <a href="#"><img src="imgLoúltimo/zapatilla.jpg" width="100%"></a>
+                    <h3>RED FURY 2021/22 STORM</h2>
+                        <p>CALZADO Unicef</p>
+                        <p>S/600</p>
+                </div>
+                <div class="hijo">
+                    <a href="#"><img src="imgLoúltimo/23.jpg" width="100%"></a>
+                    <h3>JORDAN FURY 23 2021/22 NBA</h2>
+                        <p>ROPA Hombre</p>
+                        <p>S/179</p>
+                </div>
+            </div><!-- final padre-->
+            <div class="banner">
+                <div class="miniBanner">
+                    <div class="textoBanner">
+                        <h1>MÁXIMA COMODIDAD, INFINITAS POSIBLIDADES</h1>
+                        <p>Descubre todo de lo que eres capaz cuando confías en ti mismo y
+                            alcanzas un estado de confort absoluto.</p>
+                        <br>
+                        <a href="#">Comprar ahora</a>
+                    </div>
+                </div>
+                <div class="miniBanner">
+                    <center>
+                        <img src="imgLoúltimo/Captura de pantalla 2022-10-21 151300.png">
+                    </center>
+                </div>
+            </div>
+            <div class="subTitulo">
+                <h2>¿PARA QUIÉN COMPRAS?</h2>
+                <hr>
+            </div>
+            <div class="servicios">
+                <div class="itemServicios">
+                    <a href="imgLoúltimo/HOMBRE.png" data-lightbox="image-1" data-title="Articulos de hombre">
+                        <img src="imgLoúltimo/HOMBRE.png" width="100%">
+                    </a>
+                    <a href="#">
+                        <h2>Hombres</h2>
+                    </a>
+                </div>
+                <div class="itemServicios">
+                    <a href="imgLoúltimo/MUJER.png" data-lightbox="image-1" data-title="Articulos de mujer">
+                        <img src="imgLoúltimo/MUJER.png" width="100%">
+                    </a>
+                    <a href="#">
+                        <h2>Mujeres</h2>
+                    </a>
+                </div>
+                <div class="itemServicios">
+                    <a href="imgLoúltimo/niñosOficial.png" data-lightbox="image-1" data-title="Articulos de niño">
+                        <img src="imgLoúltimo/niñosOficial.png" width="100%">
+                    </a>
+                    <a href="#">
+                        <h2>Niños</h2>
+                    </a>
+                </div>
+            </div><!-- final servicios-->
+            <div class="subTitulo">
+                <h2>ENCUENTRA TUS ZAPATILLAS PARA CORRER</h2>
+                <hr>
+            </div>
+            <div class="padreZapa">
+                <div class="hijoZapa">
+                    <img src="imgLoúltimo/zapatilla1.png" width="100%">
+                    <h3>Comodidad</h3>
+                    <br>
+                    <p>Zapatillas de runing para usar diario</p>
+                    <br>
+                    <a href="#">Comprar ahora</a>
+                </div>
+                <div class="hijoZapa">
+                    <img src="imgLoúltimo/zapa2.png" width="100%">
+                    <h3>Amortiguación</h3>
+                    <br>
+                    <p>Zapatillas de runing para competición</p>
+                    <br>
+                    <a href="#">Comprar ahora</a>
+                </div>
+                <div class="hijoZapa">
+                    <img src="imgLoúltimo/zapatilla3.png" width="100%">
+                    <h3>Ligereza</h3>
+                    <br>
+                    <p>Zapatillas de runing para entrenar a largas distancias</p>
+                    <br>
+                    <a href="#">Comprar ahora</a>
+
+                </div>
+                <div class="hijoZapa">
+                    <img src="imgLoúltimo/zapatilla4.png" width="100%">
+                    <h3>Sujeción</h3>
+                    <br>
+                    <p>Zapatillas de runing para principiantes</p>
+                    <br>
+                    <a href="#">Comprar ahora</a>
+                </div>
+            </div><!-- final padreZapa-->
+
+            <div class="banner2" style="background-image: url('imgLoúltimo/banner2.jpg'); ">
+                <div class="hijoBanner2">
+                    <h1>PROTEGER LOS OCÉANOS ES NUESTRA PRINCIPAL PRIORIDAD. NUESTRA MISIÓN VA MÁS ALLÁ DEL DEPORTE. ES
+                        NUESTRO FUTURO.</h1>
+                    <br>
+                    <a href="#">CONOCE MÁS</a>
+                </div>
+            </div><!-- final banner2-->
+
+           <!--PARTE FINAL-->
+            <footer class="box-3">
+            
+                <div class="foot">
+                    <div class="menu-Text">
+                      <h4>PRODUCTOS</h4>
+                        <ul>
+                            <li><a href="#">RedFury en casa</a></li>
+                            <li><a href="#">RedClub</a></li>
+                            <li><a href="#">Red app</a></li>
+                            <li><a href="#">ReFury runners</a></li>
+                        </ul>
+                    </div>
+                    <div class="menu-Text">
+                        <ul>
+                            <li><a href="#">BlackFriday</a></li>
+                            <li><a href="#">Cyber days</a></li>
+                            <li><a href="#">Cyber monday</a></li>
+                            <li><a href="#">Cyber Wow</a></li>
+                            <li><a href="#">Outlet</a></li>
+                            <li><a href="#">Novedades</a></li>
+                        </ul>
+                    </div>
+                    <div class="menu-Text">
+                        <ul>
+                            <li><a href="#">Buzos</a></li>
+                            <li><a href="#">Chimpunes</a></li>
+                            <li><a href="#">Accesorios</a></li>
+                            <li><a href="#">Ropa</a></li>
+                            <li><a href="#">Calzado</a></li>
+                            <li><a href="#">Zapatillas</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="foot">
+                    <h4>COLECCIONES</h4>
+                    <ul>
+                        <li><a href="#">Air Jordan1</a></li>
+                        <li><a href="#">Nike Air Max</a></li>
+                        <li><a href="#">SuperStar</a></li>
+                        <li><a href="#">Forum</a></li>
+                        <li><a href="#">Falcon</a></li>
+                        <li><a href="#">Stan Smith</a></li>    
+                    </ul>
+                </div>
+                <div class="foot">
+                    <h4>ASISTENCIA</h4>
+                    <ul>
+                        <li><a href="#">¿Necesitas ayuda?</a></li>
+                        <li><a href="#">Servicio al cliente</a></li>
+                        <li><a href="#">Dudas frecuentes</a></li>
+                        <li><a href="#">Realizar pedidos</a></li>
+                        <li><a href="#">Solicitar mi devolucion</a></li>
+                        <li><a href="#">Devoluciones</a></li>
+                        <li><a href="#">Cambio en tiendas</a></li>
+                        <li><a href="#">Como usar nuestro sitio</a></li>
+                        <li><a href="#">Guia de tallas</a></li>
+                        <li><a href="#">Mapa del sitio</a></li>
+                    </ul>
+                </div>
+                <div class="foot">
+                    <h4>INFORMACION DE LA EMPRESA</h4>
+                    <ul>
+                        <li><a href="#">Acerca de RedFury</a></li>
+                        <li><a href="#">Trabaja en nuestro equipo</a></li>
+                        <li><a href="#">Postular</a></li>
+                    </ul>
+                    <h4  style="text-align: center;">TIENDAS</h4>
+                    <br>
+                    <a href="#"><img class="imgFoot" src="imgLoúltimo/libroReclamaciones.png" alt="ImagenDeLibroDeReclamaciones" width="100%" height="150px"></a>
+                </div>
+                <div class="foot">
+                    <h4>SIGUENOS</h4>
+                    <ul>
+                        <li>
+                            <a href="#"><img src="imgLoúltimo/facebook.png" class="logitos"></a>
+                        </li>
+                    
+                        <li>
+                            <a href="#"><img src="imgLoúltimo/instagram.png"  class="logitos"></a>
+                        </li>
+                   
+                        <li>
+                            <a href="#"><img src="imgLoúltimo/twitter.png"  class="logitos"></a>
+                        </li>
+                    
+                        <li>
+                            <a href="#"><img src="imgLoúltimo/whatsapp.png" class="logitos"></a>
+                        </li>
+                    </ul>
+                </div>
+            </footer>
+            <div class="footer-page">
+                <div class="footer-container">
+                    <a href=""><p>Nuestros Datos  |   Terminos y Condiciones   |   Politica de Privacidad   |   Seleccionar Pais   |   Uso del sitio</p></a>
+                    <div class="footer-copyright">
+                       <p> © 2022 adidas Perú SAC, RUC 20347100316. Av. 28 de Julio 1011, interior 1001, Miraflores, Código Postal Lima 18</p>
+                    </div>
+                </div>
+            </div>    
+    </div><!-- final contenedor-->
+
+</body>
+<script src="Light-slider-Files/Jquery.js"></script>   
+<script src="JsLoultimo.js"></script>
+<script src="dist/js/lightbox.js"></script>
+<script src="dist/js/lightbox-plus-jquery.js"></script>
+
+</html>

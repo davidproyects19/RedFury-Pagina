@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zapatillas</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Dancing+Script|Raleway:500,600&display=swap" rel="stylesheet">
+
+    <link href="dist/css/lightbox.css" rel="stylesheet">
+    <script src="Light-slider-Files/Jquery.js"></script>
+
+    <script defer src="https://kit.fontawesome.com/c8e4d183c2.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="contenedor">
+        <header>
+            <div class="encabezado">
+                <div class="logo">
+                    <a href="../Lo ultimo/Lo último.html" class="logoTexto">RED FURY</a>
+                </div>
+                <nav class="menu">
+                    <ul>
+                        <li><a href="../Lo ultimo/Lo último.html">Lo último</a></li>
+                        <li>
+                            <a href="../Accesorios_DEW/accesorios.html">Accesorios</a>
+                        </li>
+                        <li>
+                            <a href="../Ropas Deportivas/ropaDeportiva.html">Ropas deportivas</a>
+                        </li>
+                        <li>
+                            <a href="zapatilla.html">Zapatillas</a>
+
+                        </li>
+                        <li><a href="../OFERTAS/ofertas.html">Ofertas</a></li>
+                    </ul>
+                </nav>
+
+                <div class="right-menu">
+                    <!--search-->
+                    <a href="javascript:void(0);" class="search">
+                        <i class="fas fa-search"></i>
+                    </a>
+                    <!--user-->
+                    <a href="javascript:void(0);" class="user">
+                        <i class="far fa-user"></i>
+                    </a>
+                    <!--cart icon-->
+                    <a href="#">
+                        <i class="fas fa-shopping-cart">
+                            <!--number if product in cart-->
+                            <span class="num-cart-product">0</span>
+                        </i>
+                    </a>
+                </div>
+        </header>
+        <!--*****Final De header******-->
+        <!--search bar-->
+        <div class="search-bar">
+            <!--search input-->
+            <div class="search-input">
+                <input type="text" placeholder="Buscar el producto">
+                <!--Cancel btn-->
+                <a href="javascript:void(0);" class="search-cancel">
+                    <i class="fas fa-times"></i>
+                </a>
+            </div>
+        </div>
+        <!--login and sign up from-->
+        <div class="form">
+
+            <!--login-->
+            <div class="login-form">
+
+                <!--cancel btn-->
+                <a href="javascript:void(0);" class="form-cancel">
+                    <i class="fas fa-times"></i>
+                </a>
+
+                <!--heading-->
+                <strong>Iniciar Sec</strong>
+
+                <!--inputs-->
+                <form>
+                    <input type="email" placeholder="Ejemplo@gmail.com" name="email" required>
+                    <input type="password" placeholder="Contraseña" name="password" required>
+                    <!--submit btn-->
+                    <input type="submit" value="Entrar">
+                </form>
+
+                <!--forget and sign up btn-->
+                <div class="form-btns">
+                    <a href="#" class="forget">¿Te olvidaste tu contraseña?</a>
+                    <a href="javascript:void(0);" class="sign-up-btn">Crear cuenta</a>
+                </div>
+
+            </div>
+
+            <!--Sign up-->
+            <div class="sign-up-form">
+
+                <!--cancel btn-->
+                <a href="javascript:void(0);" class="form-cancel">
+                    <i class="fas fa-times"></i>
+                </a>
+
+                <!--heading-->
+                <strong>Crear cuenta</strong>
+
+                <!--inputs-->
+                <form>
+                    <input type="text" placeholder="Nombre completo" name="fullname" required>
+                    <input type="email" placeholder="Ejemplo@gmail.com" name="email" required>
+                    <input type="password" placeholder="Contraseña" name="password" required>
+                    <!--submit btn-->
+                    <input type="submit" value="Crear">
+                </form>
+
+                <!--forget and sign up btn-->
+                <div class="form-btns">
+                    <a href="javascript:void(0);" class="already-account">¿Ya tienes una cuenta?</a>
+                </div>
+
+            </div>
+
+        </div>
+        
+        <!--final navegador-->
+        <div id="container">
+            <div id="toggleContainer">
+               <label>Última moda</label>
+               <div id="toggle">
+                 <div id="outer3">
+                    <div id="slider3"></div>
+                 </div>
+                 <label>Mostrar todas</label>
+              </div>
+            </div>
+            <div id="galleryView">
+              <div id="galleryContainer">
+                 <div id="leftView"></div>
+                 <button id="navLeft" class="navBtns"><i class="fas fa-arrow-left fa-3x"></i></button>
+                 <a id="linkTag">
+                    <div id="mainView"></div>
+                 </a>
+                 <div id="rightView"></div>
+                 <button id="navRight" class="navBtns"><i class="fas fa-arrow-right fa-3x"></i></button>
+              </div>
+            </div>
+            <div id="tilesView">
+              <div id="tilesContainer"></div>
+            </div>
+          </div>
+
+          <div class="subTitulo">
+            <h2>ZAPATILLAS</h2>
+            <hr>
+        </div>
+
+            <div class="gallery">
+                <figure>
+                    <img src="img/imag1.png" alt="" />
+                    <figcaption>Forum Low <small>Hombre Original</small><small>6 colores*envio gratis</small>
+                    </figcaption>
+                </figure>
+                <figure>
+                    <img src="img/imag2.png" alt="" />
+                    <figcaption>Forum Bold<small>Hombre Original</small><small>8 colores*envio gratis</small>
+                    </figcaption>
+                </figure>
+                <figure>
+                    <img src="img/imag3.png" alt="" />
+                    <figcaption>
+                        Red Fury<small>Hombre Original</small><small>2 colores*envio gratis</small>
+                    </figcaption>
+                </figure>
+                </div>
+                <div class="banner">
+                    <div class="miniBanner">
+                        <div class="textoBanner">
+                            <h1>🔥 HASTA 40% OFF 🔥</h1>
+                            <p>Además, recibe 20% adicional al comprar más de 299 S/. en el catálogo seleccionado
+                                o si eres miembro FuryClub 
+                                o 
+                                para recibir 30% *El descuento adicional se verá reflejado en el carrito</p>
+                            <br>
+                            <a id="link" href="#">Comprar ahora</a>
+                        </div>
+                    </div>
+                    <div class="miniBanner">
+                        <center>
+                            <img src="img/banner.jpg">
+                        </center>
+                    </div>
+                </div>
+                <div class="gallery">
+                <figure>
+                    <img src="img/imag4.png" alt="" />
+                    <figcaption>Red Fury Retropy <small>Hombre Original</small><small>5 colores*envio gratis</small>
+                    </figcaption>
+                </figure>
+                <figure>
+                    <img src="img/imag5.png" alt="" />
+                    <figcaption>Fury Bonega <small>Hombre Original</small><small>4 colores*envio gratis</small>
+                    </figcaption>
+                </figure>
+                <figure>
+                    <img src="img/imag6.png" alt="" />
+                    <figcaption>Asitir<small>Hombre Original</small><small>3 colores*envio gratis</small></figcaption>
+                </figure>
+                <figure>
+                    <img src="img/imag7.png" alt="" />
+                    <figcaption>Fury Retropy F2 <small>Hombre Original</small><small>4 colores*envio gratis</small>
+                    </figcaption>
+                </figure>
+                <figure>
+                    <img src="img/imag8.png" alt="" />
+                    <figcaption>Terrex Fury F4<small>Hombre Original</small><small>2 colores*envio gratis</small>
+                    </figcaption>
+                </figure>
+                <figure>
+                    <img src="img/imag9.png" alt="" />
+                    <figcaption>
+                        Fury <small>Hombre Original</small><small>2 colores*envio gratis</small>
+                    </figcaption>
+                </figure>
+                <figure>
+                    <img src="img/img10.png" alt="" />
+                    <figcaption>Raccer F2 <small>Hombre Original</small> <small>2 colores*envio gratis</small>
+                    </figcaption>
+                </figure>
+                <figure>
+                    <img src="img/imag11.png" alt="" />
+                    <figcaption>Terrex Fury <small>Hombre Original</small> <small>2 colores*envio gratis</small>
+                    </figcaption>
+                </figure>
+                <figure>
+                    <img src="img/imag12.png" alt="" />
+                    <figcaption>Red F8 <small>Hombre Original</small> <small>Agotado</small></figcaption>
+                </figure>
+            </div>
+            
+    <div class="footer">
+        <div id="left">
+            <h3>ÚNETE AL CLUB Y CONSIGUE</h3>
+            <h3>UN 15% DE DESCUENTO</h3>
+            <br>
+        <a href="#" class="bottom">Registrate Gratis</a>
+    </div>
+    </div>
+
+<!--PARTE FINAL-->
+<footer class="box-3">
+      
+  <div class="foot">
+      <div class="menu-Text">
+        <h4>PRODUCTOS</h4>
+          <ul>
+              <li><a href="#">RedFury en casa</a></li>
+              <li><a href="#">RedClub</a></li>
+              <li><a href="#">Red app</a></li>
+              <li><a href="#">ReFury runners</a></li>
+          </ul>
+      </div>
+      <div class="menu-Text">
+          <ul>
+              <li><a href="#">BlackFriday</a></li>
+              <li><a href="#">Cyber days</a></li>
+              <li><a href="#">Cyber monday</a></li>
+              <li><a href="#">Cyber Wow</a></li>
+              <li><a href="#">Outlet</a></li>
+              <li><a href="#">Novedades</a></li>
+          </ul>
+      </div>
+      <div class="menu-Text">
+          <ul>
+              <li><a href="#">Buzos</a></li>
+              <li><a href="#">Chimpunes</a></li>
+              <li><a href="#">Accesorios</a></li>
+              <li><a href="#">Ropa</a></li>
+              <li><a href="#">Calzado</a></li>
+              <li><a href="#">Zapatillas</a></li>
+          </ul>
+      </div>
+  </div>
+  <div class="foot">
+      <h4>COLECCIONES</h4>
+      <ul>
+          <li><a href="#">Air Jordan1</a></li>
+          <li><a href="#">Nike Air Max</a></li>
+          <li><a href="#">SuperStar</a></li>
+          <li><a href="#">Forum</a></li>
+          <li><a href="#">Falcon</a></li>
+          <li><a href="#">Stan Smith</a></li>    
+      </ul>
+  </div>
+  <div class="foot">
+      <h4>ASISTENCIA</h4>
+      <ul>
+          <li><a href="#">¿Necesitas ayuda?</a></li>
+          <li><a href="#">Servicio al cliente</a></li>
+          <li><a href="#">Dudas frecuentes</a></li>
+          <li><a href="#">Realizar pedidos</a></li>
+          <li><a href="#">Solicitar mi devolucion</a></li>
+          <li><a href="#">Devoluciones</a></li>
+          <li><a href="#">Cambio en tiendas</a></li>
+          <li><a href="#">Como usar nuestro sitio</a></li>
+          <li><a href="#">Guia de tallas</a></li>
+          <li><a href="#">Mapa del sitio</a></li>
+      </ul>
+  </div>
+  <div class="foot">
+      <h4>INFORMACION DE LA EMPRESA</h4>
+      <ul>
+          <li><a href="#">Acerca de RedFury</a></li>
+          <li><a href="#">Trabaja en nuestro equipo</a></li>
+          <li><a href="#">Postular</a></li>
+      </ul>
+      <h4  style="text-align: center;">TIENDAS</h4>
+      <br>
+      <a href="#"><img class="imgFoot" src="img/libroReclamaciones.png" alt="ImagenDeLibroDeReclamaciones" width="100%" height="150px"></a>
+  </div>
+  <div class="foot">
+      <h4>SIGUENOS</h4>
+      <ul>
+          <li>
+              <a href="#"><img src="img/facebook.png" class="logitos"></a>
+          </li>
+      
+          <li>
+              <a href="#"><img src="img/instagram.png"  class="logitos"></a>
+          </li>
+     
+          <li>
+              <a href="#"><img src="img/twitter.png"  class="logitos"></a>
+          </li>
+      
+          <li>
+              <a href="#"><img src="img/whatsapp.png" class="logitos"></a>
+          </li>
+      </ul>
+  </div>
+</footer>
+<div class="footer-page">
+  <div class="footer-container">
+      <a href=""><p>Nuestros Datos  |   Terminos y Condiciones   |   Politica de Privacidad   |   Seleccionar Pais   |   Uso del sitio</p></a>
+      <div class="footer-copyright">
+         <p> © 2022 adidas Perú SAC, RUC 20347100316. Av. 28 de Julio 1011, interior 1001, Miraflores, Código Postal Lima 18</p>
+      </div>
+  </div>
+</div>
+</div>
+
+</body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+<script src="jsHombre.js"></script>
+<script src="dist/js/lightbox.js"></script>
+<script src="dist/js/lightbox-plus-jquery.js"></script>
+
+<script src="js/script.js"></script>
+
+</html>
